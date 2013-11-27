@@ -64,7 +64,8 @@ Not every Faker method is currently supported. In an effort to simply the syntax
     credit_card_number: Faker::Business.credit_card_number
     credit_card_type: Faker::Business.credit_card_type
 
-##TODO: Allow has_many_mocks to use a range, so rather than always being 0 to x it could be more specific and always return 2..5 objects for example.
+##TODO:
+Allow has_many_mocks to use a range, so rather than always being 0 to x it could be more specific and always return 2..5 objects for example.
 
 ## License
 

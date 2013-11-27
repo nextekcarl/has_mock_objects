@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = HasMockObjects::VERSION
   s.authors     = ["Carl Anderson"]
   s.email       = ["carl@planetargon.com"]
-  s.homepage    = "http://planetargon.com"
+  s.homepage    = "https://github.com/nextekcarl/has_mock_objects"
   s.summary     = "Makes putting off decisions for related objects as easy as using Lorem Ipsum text in mockups."
   s.description = "After reading Practical Object-Oriented Design in Ruby: An Agile Primer by Sandi Metz, I wanted an easy way to put off making decisions about related objects during the early phases of a project. This is what I came up with for that."
 

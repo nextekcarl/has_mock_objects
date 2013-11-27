@@ -4,7 +4,7 @@ require 'faker'
 module HasMockObjects
   extend ActiveSupport::Concern
 
-  def has_many_mock_objects
+  def has_mock_objects
     unless included_modules.include? LocalInstanceMethods
       extend ClassMethods
       include LocalInstanceMethods

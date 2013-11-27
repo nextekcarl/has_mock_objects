@@ -1,5 +1,5 @@
 class Book < ActiveRecord::Base
-  has_many_mock_objects
+  has_mock_objects
 
   attr_accessible :title
 

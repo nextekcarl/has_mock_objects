@@ -3,7 +3,7 @@ HasMockObjects
 
 After reading Practical Object-Oriented Design in Ruby: An Agile Primer by Sandi Metz, I wanted an easy way to put off making decisions about related objects during the early phases of a project. This is what I came up with for that.
 
-I wanted a very simple syntax for saying, "I know I will want this object to the associated with this other thing, but I don't yet know what columns or methods it will really need." Also known as the Fake-It-until-You-Make-It method.
+I wanted a very simple syntax for saying, "I know I will want this object to the associated with this other thing, but I don't yet know what columns or methods it will really need." Also known as the Fake-It-Until-You-Make-It method.
 
 I also wanted soemthing very simple to search for ina  project tops ee where and how it is being used, since something like this is only useful at early staginges and would be replaced over time with the actual implementation of the things it is faking.
 

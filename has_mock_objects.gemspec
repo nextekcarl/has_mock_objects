@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Makes putting off decisions for related objects as easy as using Lorem Ipsum text in mockups."
   s.description = "After reading Practical Object-Oriented Design in Ruby: An Agile Primer by Sandi Metz, I wanted an easy way to put off making decisions about related objects during the early phases of a project. This is what I came up with for that."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.13"

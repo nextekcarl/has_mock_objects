@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    has_mock_objects (0.0.2)
+    has_mock_objects (0.0.3)
       faker (~> 1.2)
       rails (~> 3.2.13)
 

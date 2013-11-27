@@ -1,5 +1,0 @@
-= HasMockObjects
-
-After reading Practical Object-Oriented Design in Ruby: An Agile Primer by Sandi Metz, I wanted an easy way to put off making decisions about related objects during the early phases of a project. This is what I came up with for that.
-
-This project rocks and uses MIT-LICENSE.

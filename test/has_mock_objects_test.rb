@@ -10,6 +10,18 @@ class HasMockObjectsTest < ActiveSupport::TestCase
     assert_equal true, book.chapters.is_a?(Array)
   end
 
+  def test_a_books_mock_bibliographies_should_return_array_with_at_least_4_objects
+    book = Book.new
+    assert_equal true, book.bibliographies.is_a?(Array)
+    assert_equal true, book.bibliographies.count >= 4
+  end
+
+  def test_a_books_mock_bibliographies_should_return_array_with_at_most_5_objects
+    book = Book.new
+    assert_equal true, book.bibliographies.is_a?(Array)
+    assert_equal true, book.bibliographies.count <= 5
+  end
+
   def test_a_books_mock_chapters_should_count_should_vary_between_instances
     books = []
     10.times do

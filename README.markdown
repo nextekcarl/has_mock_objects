@@ -49,7 +49,7 @@ And since the chapters are stored in an attribute on the instance the @book.chap
 
 The call to has_one_mock works similarly, but always returns a single OpenStruct object (no chance of nil).
 
-Not every Faker method is currently supported. In an effort to simply the syntax as much as possible, a constant is defined for these methods with their corresponding Faker equivalent:
+Not every Faker method is currently supported. In an effort to simplify the syntax as much as possible, a constant is defined for these methods with their corresponding Faker equivalent:
 
     word: Faker::Lorem.word
     words: Faker::Lorem.words.join(' ')

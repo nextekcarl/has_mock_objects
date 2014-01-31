@@ -3,6 +3,6 @@ class Book < ActiveRecord::Base
 
   attr_accessible :title
 
-  has_many_mocks :chapters, 5, title: :words, content: :paragraphs
-  has_one_mock :author, name: :name, email: :email
+  has_many_mocks :chapters, 5, title: :words, content: :paragraphs, written: :recent_date
+  has_one_mock :author, name: :name, email: :email, born: :historical_date
 end

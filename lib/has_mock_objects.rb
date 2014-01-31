@@ -2,6 +2,7 @@ require 'ostruct'
 require 'faker'
 
 module HasMockObjects
+  SECONDS_IN_YEAR = 31536000
   extend ActiveSupport::Concern
 
   def has_mock_objects
@@ -25,7 +26,10 @@ module HasMockObjects
       phone_number: lambda { Faker::PhoneNumber.phone_number },
       email: lambda { Faker::Internet.email },
       credit_card_number: lambda { Faker::Business.credit_card_number },
-      credit_card_type: lambda { Faker::Business.credit_card_type }
+      credit_card_type: lambda { Faker::Business.credit_card_type },
+      today: lambda { Time.now },
+      recent_date: lambda { Time.now - rand(HasMockObjects::SECONDS_IN_YEAR) },
+      historical_date: lambda { Time.now - rand(HasMockObjects::SECONDS_IN_YEAR*10) }
     }
 
     def mock_attributes(attributes)
